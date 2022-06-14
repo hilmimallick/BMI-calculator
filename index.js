@@ -26,3 +26,9 @@ function calculate() {
     document.getElementById("result").innerHTML = "Negative Values not Allowed";
   }
 }
+
+function reset() {
+  document.getElementById("height").value = "";
+  document.getElementById("weight").value = "";
+  document.getElementById("result").innerHTML = "Your BMI";
+}
